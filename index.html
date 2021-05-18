@@ -1,0 +1,116 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+<style>
+    
+    h1 {
+  font-family: "Sofia", sans-serif;
+        
+}
+    h2 {
+  font-family: "Sofia", sans-serif;
+     color: white;
+}
+    body {
+  font-family: "Trirong", serif;
+}
+    
+     p {
+  font-family: "Trirong", serif;
+}
+    .sidebar {
+  height: 100%;
+  width: 100px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #D7ABB6;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #D7ABB6;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+    
+    .myDiv {
+  width: 312px;
+  height: 312px;
+  background-color: #D7ABB6;
+  position: relative;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes example {
+  0%   {background-color:#D7ABB6; left:0px; top:0px;}
+  25%  {background-color:#FFFFD8; left:200px; top:0px;}
+  50%  {background-color:#9DBAD5; left:200px; top:200px;}
+  75%  {background-color:#C8D6B9; left:0px; top:200px;}
+  100% {background-color:#EAEBFF; left:0px; top:0px;}
+}
+    </style>
+        <title>Exercise 5</title>
+
+      <body>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+<div class="sidebar">
+  <a href="index.html"> <img src="images/Home.png" 
+     width="50px";
+     height="50px";/> </a>
+  <a href="https://www.instagram.com/"><img src="images/instagram.png" 
+     width="50px";
+     height="50px";/></a>
+  <a href=mailto:luisadorisf@icloud.com><img src="images/Email.png" 
+     width="50px";
+     height="50px";/> </a>
+</div>
+
+<div class="main">
+  <h1>Exercise 5</h1>
+
+  <p>This is a single page site using responsiveness, icons, an animation and custom fonts.</p>
+  <h1>Below is an animation being used:</h1>
+    <br>
+    
+</div>
+          
+         <center> <div class="myDiv">
+
+ <h2>animation</h2>
+             <img src="images/animation.png" 
+     width="200px";
+     height="200px";/> 
+</div></center>
+     </body>  
+        
+    </head>
+    
+
+</html>
